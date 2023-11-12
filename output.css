@@ -534,12 +534,20 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.mb-1 {
+  margin-bottom: 0.25rem;
+}
+
 .mb-12 {
   margin-bottom: 3rem;
 }
 
-.mb-1 {
-  margin-bottom: 0.25rem;
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
 }
 
 .flex {
@@ -554,32 +562,8 @@ video {
   height: 100%;
 }
 
-.h-\[40vh\] {
-  height: 40vh;
-}
-
-.h-\[25vh\] {
-  height: 25vh;
-}
-
-.max-h-\[20vh\] {
-  max-height: 20vh;
-}
-
-.max-h-\[40vh\] {
-  max-height: 40vh;
-}
-
 .w-full {
   width: 100%;
-}
-
-.w-\[\] {
-  width: ;
-}
-
-.w-\[50\%\] {
-  width: 50%;
 }
 
 .max-w-none {
@@ -598,12 +582,17 @@ video {
   align-items: center;
 }
 
+.justify-center {
+  justify-content: center;
+}
+
 .justify-between {
   justify-content: space-between;
 }
 
-.justify-around {
-  justify-content: space-around;
+.gap-x-10 {
+  -moz-column-gap: 2.5rem;
+       column-gap: 2.5rem;
 }
 
 .gap-x-16 {
@@ -614,6 +603,11 @@ video {
 .gap-x-28 {
   -moz-column-gap: 7rem;
        column-gap: 7rem;
+}
+
+.gap-x-32 {
+  -moz-column-gap: 8rem;
+       column-gap: 8rem;
 }
 
 .gap-y-12 {
@@ -633,10 +627,6 @@ video {
   border-color: rgb(70 62 149 / var(--tw-border-opacity));
 }
 
-.p-10 {
-  padding: 2.5rem;
-}
-
 .p-7 {
   padding: 1.75rem;
 }
@@ -654,6 +644,18 @@ video {
 .py-28 {
   padding-top: 7rem;
   padding-bottom: 7rem;
+}
+
+.pb-28 {
+  padding-bottom: 7rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-start {
+  text-align: start;
 }
 
 .text-end {
@@ -686,4 +688,14 @@ h3 {
   font-family: 'Nova Quinta PERSONAL USE', sans-serif;
   font-size: 24px;
   color: #463E95;
+}
+
+a {
+  font-family: 'Nova Quinta PERSONAL USE', sans-serif;
+  font-size: 24px;
+  color: #463E95;
+}
+
+.img-center {
+  margin: 0 auto;
 }

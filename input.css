@@ -29,3 +29,13 @@ h3 {
     font-size: 24px;
     color: #463E95;
 }
+
+a {
+    font-family: 'Nova Quinta PERSONAL USE', sans-serif;
+    font-size: 24px;
+    color: #463E95;
+}
+
+.img-center {
+    margin: 0 auto;
+}
